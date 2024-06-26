@@ -48,7 +48,7 @@ def translate_text(text, output_language='hi'):
 def text_to_speech(text, output_file, language='en', voice='male'):
     tts = gTTS(text=text, lang=language, slow=False)
     if voice == 'female':
-        tts.save(output_file)
+        tts.save(output_file) 
     else:
         tts.save(output_file) 
 
